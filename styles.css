@@ -1,0 +1,82 @@
+.main{
+    background-color: rgb(156, 9, 9);
+    display: flex;
+}
+.p{
+    margin-left: 320px;
+}    
+
+.n{
+    background-color: rgb(156, 9, 9);
+}
+.k
+{
+    font-size: 30px;
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides any overflow */
+    text-overflow: ellipsis; 
+    text-align: center;
+    color: #f1ecec;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 270px;
+    margin-bottom: 10px;
+}
+.l
+{
+    font-size: medium;
+    color: #f1ecec;
+    margin-left: 360px;
+    font-weight: 400;
+}
+.d
+{
+    display: flex;
+    justify-content: space-between;
+}
+.d a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+.link:hover
+{
+    color:rgb(255, 255, 255);
+    background-color: #5B8155;
+    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color:rgb(255, 255, 255);
+    background-color: #5B8155;
+}
+.h{
+    display: flex;
+    justify-content: space-between;
+}
+.h .a{
+    color:black;
+}
+
+.x:hover{
+    color:#b82e0c ;
+}
